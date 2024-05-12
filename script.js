@@ -42,7 +42,7 @@ const loadCategories = async (id = 1000) => {
   } catch (error) {
     const p = document.createElement("p");
     p.classList.add("error");
-    p.innerText = "Network Error";
+    p.innerText = "";
     showDiv.appendChild(p);
     hidden.style.display = "none";
   }
